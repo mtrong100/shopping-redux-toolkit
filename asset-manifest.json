@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopping-redux-toolkit/static/css/main.44403bed.css",
+    "main.js": "/shopping-redux-toolkit/static/js/main.c6b35d75.js",
+    "static/js/787.57d9e878.chunk.js": "/shopping-redux-toolkit/static/js/787.57d9e878.chunk.js",
+    "index.html": "/shopping-redux-toolkit/index.html",
+    "main.44403bed.css.map": "/shopping-redux-toolkit/static/css/main.44403bed.css.map",
+    "main.c6b35d75.js.map": "/shopping-redux-toolkit/static/js/main.c6b35d75.js.map",
+    "787.57d9e878.chunk.js.map": "/shopping-redux-toolkit/static/js/787.57d9e878.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44403bed.css",
+    "static/js/main.c6b35d75.js"
+  ]
+}
