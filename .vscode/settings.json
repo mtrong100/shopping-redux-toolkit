@@ -1,0 +1,6 @@
+{
+  "editor.tokenColorCustomizations": {
+    "comments": "#16FF00"
+  },
+  "todo-tree.tree.scanMode": "workspace"
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "reset";
+
+@layer base {
+  body {
+    @apply font-primary bg-tailwindBlue text-white;
+  }
+  .page-container {
+    @apply max-w-[1170px] px-[15px] mx-auto w-full;
+  }
+  .img-cover {
+    @apply w-full h-full object-cover transition-all duration-500 group-hover:scale-110 rounded-md;
+  }
+  .fixed-bg {
+    @apply bg-center bg-cover bg-no-repeat min-h-screen;
+  }
+  .loading {
+    @apply w-[100px] h-[100px] animate-spin rounded-full border-t-[10px] border-t-transparent border-[10px] border-solid border-blue-500;
+  }
+}

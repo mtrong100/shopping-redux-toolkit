@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  all: unset;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  word-break: break-word;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins";
+}
+
+/* ================================================= */
+/* CUSTOM SCROLL-BAR */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* ================================================= */
